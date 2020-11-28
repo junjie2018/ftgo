@@ -35,10 +35,10 @@ public class Order {
 
         List<OrderDomainEvent> events = singletonList(new OrderCreatedEvent(
                 new OrderDetails(
-                        orderLineItems,
-                        order.getOrderTotal(),
+                        consumerId,
                         restaurant.getId(),
-                        consumerId),
+                        orderLineItems,
+                        order.getOrderTotal()),
                 deliveryInformation.getDeliveryAddress(),
                 restaurant.getName()));
 

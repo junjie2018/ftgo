@@ -1,4 +1,4 @@
-package fun.junjie.ftgo.orderservice.sagaparticipants;
+package fun.junjie.ftgo.orderservice.sagaparticipants.commands;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

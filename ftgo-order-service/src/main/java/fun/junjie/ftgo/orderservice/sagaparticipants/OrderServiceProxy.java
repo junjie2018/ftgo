@@ -1,6 +1,8 @@
 package fun.junjie.ftgo.orderservice.sagaparticipants;
 
 import fun.junjie.ftgo.orderservice.OrderServiceChannels;
+import fun.junjie.ftgo.orderservice.sagaparticipants.commands.ApproveOrderCommand;
+import fun.junjie.ftgo.orderservice.sagaparticipants.commands.RejectOrderCommand;
 import io.eventuate.tram.commands.common.Success;
 import io.eventuate.tram.sagas.simpledsl.CommandEndpoint;
 import io.eventuate.tram.sagas.simpledsl.CommandEndpointBuilder;

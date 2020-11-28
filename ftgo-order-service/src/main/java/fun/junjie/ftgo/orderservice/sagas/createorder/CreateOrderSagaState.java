@@ -5,8 +5,8 @@ import fun.junjie.ftgo.consumerservice.api.ValidateOrderByConsumer;
 import fun.junjie.ftgo.kitchenservice.api.*;
 import fun.junjie.ftgo.orderservice.api.OrderDetails;
 import fun.junjie.ftgo.orderservice.api.OrderLineItem;
-import fun.junjie.ftgo.orderservice.sagaparticipants.ApproveOrderCommand;
-import fun.junjie.ftgo.orderservice.sagaparticipants.RejectOrderCommand;
+import fun.junjie.ftgo.orderservice.sagaparticipants.commands.ApproveOrderCommand;
+import fun.junjie.ftgo.orderservice.sagaparticipants.commands.RejectOrderCommand;
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;
 

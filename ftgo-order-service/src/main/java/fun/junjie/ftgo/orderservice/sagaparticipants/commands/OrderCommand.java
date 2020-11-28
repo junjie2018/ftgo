@@ -1,4 +1,4 @@
-package fun.junjie.ftgo.orderservice.sagaparticipants;
+package fun.junjie.ftgo.orderservice.sagaparticipants.commands;
 
 import io.eventuate.tram.commands.common.Command;
 import lombok.*;
